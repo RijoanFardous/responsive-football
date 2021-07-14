@@ -16,6 +16,67 @@ body {
 }
 
 
+/**********************************************
+        Intro Section Styles 
+**********************************************/
+
+.intro-container {
+    width: 100%;
+    height: 692px;
+    background-color: #2D25A0;
+    display: flex;
+    justify-content: center;
+}
+
+.intro-section {
+    width: 1143px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.intro-text {
+    width: 488px;
+    height: 301px;
+    margin: 207px 0px 169px 0px;
+}
+
+.intro-text h1 {
+    font-size: 64px;
+    font-weight: 700;
+    color: white;
+    line-height: 80px;
+}
+
+.intro-text p {
+    margin-top: 30px;
+}
+
+.intro-text p a {
+    font-size: 16px;
+    font-weight: 500;
+    color: white;
+    text-decoration: none;
+    padding: 10px 24px;
+    background-color: #E02C6D;
+}
+
+p a .fas {
+    color:white;
+    margin-left: 8px;
+}
+
+.intro-image {
+    width: 556.01px;
+    height: 438px;
+    margin: 153px 0px 86px; 
+}
+
+.intro-image img {
+    width: 100%; 
+}
+
+
+
 /*******  Players Section Styles ******/
 
 .players-container {
@@ -70,28 +131,7 @@ body {
         Latest News Section Styles 
 **********************************************/
 
-/* .latest-articles {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
 
-.blogs {
-    width: 870px;
-}
-
-.blog {
-
-}
-
-.blog-image {
-    width: 177px;
-    height: 117px;
-}
-
-.blog-image img {
-    width: 100%;
-} */
 
 
 /**********************************************
@@ -153,11 +193,31 @@ body {
 .far, .fas {
     color: #2D25A0;
 }
+
+
+
+
 /**********************************************
         Media Queries For Tablets 
 **********************************************/
 
 @media (max-width: 1024px) {
+   
+    .intro-section {
+        width: 800px;
+    }
+    .intro-text {
+        margin: 170px 0px;
+    }
+    .intro-text h1 {
+        font-size: 50px;
+    }
+    .intro-image {
+        width: 500px;
+        height: 400px;
+        margin: 153px 0px 86px; 
+    }
+
     .players, .matches {
         width: 690px;
         display: grid;
@@ -172,6 +232,28 @@ body {
 **********************************************/
 
 @media (max-width: 688px) {
+    .intro-section {
+        width: 100%;
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .intro-text {
+        width: 278px;
+        height: 138px;
+        margin: 100px 0px;
+    }
+    
+    .intro-text h1 {
+        font-size: 36px;
+        line-height: 50px;
+    }
+    .intro-image {
+        width: 329px;
+        height: 259.17px;
+        margin: 50px 0px 61px; 
+    }
+
     .players, .matches {
         width: 330px;
         display: grid;
