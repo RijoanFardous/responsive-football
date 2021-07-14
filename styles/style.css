@@ -21,6 +21,7 @@ body {
 .players-container {
     display: flex;
     justify-content: center;
+    margin-top: 70px;
 }
 
 .players {
@@ -65,13 +66,99 @@ body {
 }
 
 
+/**********************************************
+        Latest News Section Styles 
+**********************************************/
 
+/* .latest-articles {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.blogs {
+    width: 870px;
+}
+
+.blog {
+
+}
+
+.blog-image {
+    width: 177px;
+    height: 117px;
+}
+
+.blog-image img {
+    width: 100%;
+} */
+
+
+/**********************************************
+        Recent Matches Section Styles 
+**********************************************/
+.recent-matches {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #2D25A0;
+    margin-top: 40px;
+    padding-bottom: 40px;
+}
+.recent-matches h2 {
+    margin: 30px;
+    color: white;
+}
+.matches {
+    width: 1050px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-row-gap: 27px;
+    grid-column-gap: 30px;
+}
+.match {
+    width: 300px;
+    height: 230px;
+    padding: 15px;
+    box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.15);
+    background-color: white;
+}
+
+.teams {
+    display: flex;
+    justify-content: space-between;
+}
+.teams img {
+    width: 135px;
+    border: 0.5px solid rgba(0, 0, 0, 0.479);
+}
+
+.match-info {
+    margin-top: 16px;
+}
+
+.result {
+    margin-bottom: 10px;
+    font-weight: 700;
+    font-size: 28px;
+    color: #2D25A0;
+    text-align: center;
+}
+
+.match-info p {
+    font-weight: 400;
+    color: #6C6C6C;
+}
+
+.far, .fas {
+    color: #2D25A0;
+}
 /**********************************************
         Media Queries For Tablets 
 **********************************************/
 
 @media (max-width: 1024px) {
-    .players {
+    .players, .matches {
         width: 690px;
         display: grid;
         grid-template-columns: repeat(2, 1fr);
@@ -85,7 +172,7 @@ body {
 **********************************************/
 
 @media (max-width: 688px) {
-    .players {
+    .players, .matches {
         width: 330px;
         display: grid;
         grid-template-columns: 1fr;
