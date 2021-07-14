@@ -82,7 +82,6 @@ body {
     background-color: #E02C6D;
 }
 
-
 p a .fas {
     color:white;
     margin-left: 8px;
@@ -306,6 +305,9 @@ footer {
     height: 31px;
     margin: 0px auto;
 }
+
+
+
 
 /**********************************************
     Media Queries For Tablets/ Laptops
