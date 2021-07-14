@@ -219,6 +219,10 @@ p a .fas {
 }
 
 
+/**********************************************
+                Footer Style
+**********************************************/
+
 footer {
     width: 483.87px;
     height: 213px;
@@ -333,36 +337,5 @@ footer {
     .footer-logo {
         width: 330px;
         height: 100px;
-    }
-    .footer-logo img {
-        width: 100%;
-    }
-    .icons {
-        width: 170px;
-        height: 32px;
-        margin: 20px auto;
-        display: flex;
-        justify-content: space-between;
-    }
-    .icons a {
-        color: #969BAB;
-        background-color: #E7E7E8;
-        text-decoration: none;
-        text-align: center;
-        font-size: 17px;
-        
-        display: inline-block;
-        width: 32px;
-        height: 29px;
-        padding-top: 3px;
-        border-radius: 50%;
-    }
-    
-    .copyright {
-        font-size: 18px;
-        line-height: 24px;
-        width: 236px;
-        height: 31px;
-        margin: 0px auto;
     }
 }
