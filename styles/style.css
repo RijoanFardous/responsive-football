@@ -1,4 +1,3 @@
-
 /*******  Fonts  ******/
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap');
 
@@ -101,7 +100,9 @@ p a .fas {
 
 
 
-/*******  Players Section Styles ******/
+/**********************************************
+            Players Section Styles 
+**********************************************/
 
 .players-container {
     display: flex;
@@ -151,16 +152,12 @@ p a .fas {
 }
 
 
-/**********************************************
-        Latest News Section Styles 
-**********************************************/
-
-
 
 
 /**********************************************
         Recent Matches Section Styles 
 **********************************************/
+
 .recent-matches {
     display: flex;
     flex-direction: column;
@@ -217,6 +214,51 @@ p a .fas {
 .far, .fas {
     color: #2D25A0;
 }
+
+
+/**********************************************
+        Latest News Section Styles 
+**********************************************/
+
+.news-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 40px;
+}
+
+.news-container h2 {
+    margin: 30px;
+}
+
+.all-news {
+    width: 800px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 30px;
+}
+
+.news-thumbnail {
+    width: 180px;
+    height: 140px;
+}
+
+.news {
+    display: flex;
+    color: white;
+    background-color: #2d25a0;
+    box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.164);
+}
+
+.news-info {
+    margin: 10px ;
+}
+.news-thumbnail img {
+    width: 180px;
+    height: 140px;
+}
+
+
 
 
 /**********************************************
@@ -300,6 +342,7 @@ footer {
 **********************************************/
 
 @media (max-width: 688px) {
+    /* Intro Section */
     .intro-section {
         width: 100%;
         flex-direction: column;
@@ -320,6 +363,7 @@ footer {
         margin: 50px 0px 61px; 
     }
 
+    /* Players and Matches */
     .players, .matches {
         width: 330px;
         display: grid;
@@ -328,6 +372,25 @@ footer {
         grid-column-gap: 0px;
     }
 
+    /* Latest News */
+    .all-news {
+        width: 330px;
+        grid-template-columns: 1fr;
+    }
+    .news-thumbnail {
+        width: 330px;
+        height: 200px;
+    }
+    .news {
+        flex-direction: column;
+        align-items: center;
+    }
+    .news-thumbnail img {
+        width: 330px;
+        height: 200px;
+    }
+
+    /* Footer */
     footer {
         width: 330px;
         height: 213px;
