@@ -219,7 +219,47 @@ p a .fas {
 }
 
 
+footer {
+    width: 483.87px;
+    height: 213px;
+    margin: 158px auto 63px;
+}
 
+.footer-logo {
+    width: 483.87px;
+    height: 110px;
+}
+.footer-logo img {
+    width: 100%;
+}
+.icons {
+    width: 170px;
+    height: 32px;
+    margin: 20px auto;
+    display: flex;
+    justify-content: space-between;
+}
+.icons a {
+    color: #969BAB;
+    background-color: #E7E7E8;
+    text-decoration: none;
+    text-align: center;
+    font-size: 17px;
+    
+    display: inline-block;
+    width: 32px;
+    height: 29px;
+    padding-top: 3px;
+    border-radius: 50%;
+}
+
+.copyright {
+    font-size: 18px;
+    line-height: 24px;
+    width: 236px;
+    height: 31px;
+    margin: 0px auto;
+}
 
 /**********************************************
     Media Queries For Tablets/ Laptops
@@ -282,5 +322,47 @@ p a .fas {
         grid-template-columns: 1fr;
         grid-row-gap: 24px;
         grid-column-gap: 0px;
+    }
+
+    footer {
+        width: 330px;
+        height: 213px;
+        margin: 50px auto;
+    }
+
+    .footer-logo {
+        width: 330px;
+        height: 100px;
+    }
+    .footer-logo img {
+        width: 100%;
+    }
+    .icons {
+        width: 170px;
+        height: 32px;
+        margin: 20px auto;
+        display: flex;
+        justify-content: space-between;
+    }
+    .icons a {
+        color: #969BAB;
+        background-color: #E7E7E8;
+        text-decoration: none;
+        text-align: center;
+        font-size: 17px;
+        
+        display: inline-block;
+        width: 32px;
+        height: 29px;
+        padding-top: 3px;
+        border-radius: 50%;
+    }
+    
+    .copyright {
+        font-size: 18px;
+        line-height: 24px;
+        width: 236px;
+        height: 31px;
+        margin: 0px auto;
     }
 }
